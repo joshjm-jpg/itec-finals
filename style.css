@@ -1,0 +1,121 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f2f2f2;
+    transition: background-image 1s ease-in-out;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+
+.mainpage {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+    border-top-left-radius: 20%;
+    border-top-right-radius: 20%;
+}
+
+.logo .img {
+    margin-bottom: 20px;
+    
+}
+
+.logo img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+    border-style: dotted;
+    border-width: 5px;
+}
+
+.login {
+    margin-top: 20px;
+}
+
+.login h2 {
+    margin-bottom: 20px;
+    color: aliceblue;
+}
+
+.login label {
+    display: block;
+    margin-bottom: 8px;
+    text-align: left;
+    color: aliceblue;
+}
+
+.login input[type="text"],
+.login input[type="password"] {
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    
+}
+
+.login button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    border: none;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.login button:hover {
+    background-color: #0056b3;
+}
+.login-btn{
+    text-decoration: none;
+    color: white;
+}
+.button{
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    border: none;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.info{
+    margin-left: 50px;
+    width: 30%;
+    height: 500px;
+    padding: 5px;
+    
+}
+.title{
+    text-align: right;
+    color: whitesmoke;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
+.content{
+    text-align: right;
+    color: whitesmoke;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 15px;
+    
+}

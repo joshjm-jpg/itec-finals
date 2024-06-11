@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="newstyle.css">
+        
+    </head>
+    <body>
+        <header>
+            <div class = "navbar">
+                <div class = "logo">
+                    <div class="logoimage">
+                        <img src="logo.png" alt="logo">
+                    </div>
+                </div>
+    
+                <div class = "menu">
+                    <ul>
+                       
+                        <li><a href="login.html" class="home">Home</a></li>
+                        <li>Admin</li>
+                        <li>About us</li>
+                    </ul>
+                </div>
+    
+                <div class = "contact-button">
+                    <p>CONTACT</p>
+                </div>
+            </div>
+        </header>
+
+        <div class="container">
+            <h1 class="title">Choose your Genre</h1>
+
+            <div class="menubox">
+                <div class="column">
+                    <div class="photo" onmouseover="showText(event, 'POP Music')" onmouseout="hideText()">
+                        <div class="text">POP</div>
+                        <img src="POP.jfif">
+                        
+                    </div>
+                    <div class="photo" onmouseover="showText(event, 'POP Music')" onmouseout="hideText()">
+                        <div class="text" id="text">Rock</div>
+                        <img src = "ROCK.jpg">
+                        
+                    </div>
+                    
+                </div>
+
+                <div class="column">
+                    <div class="photo" onmouseover="showText(event, 'POP Music')" onmouseout="hideText()">
+                        <div class="text" id="text">Hip-Hop</div>
+                        <img src = "hiphop.jpg">
+                        
+                    </div>
+                    <div class="photo" onmouseover="showText(event, 'Rock Music')" onmouseout="hideText()">
+                        <div class="text" id="text">Indie</div>
+                        <img src = "INDIE.png">
+                        
+                    </div>
+                    
+                </div>
+                
+                <div class="column">
+                    <div class="photo" onmouseover="showText(event, 'POP Music')" onmouseout="hideText()">
+                        <div class="text" id="text">Jazz</div>
+                        <img src = "JAZZZ.jfif">
+                        
+                    </div>
+                    <div class="photo" onmouseover="showText(event, 'POP Music')" onmouseout="hideText()">
+                        <div class="text" id="text">Funk</div>
+                        <img src = "FUNK.jpg">
+                        
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        <!-- <script src="myscript.js"></script>-->
+    </body>
+
+</html>

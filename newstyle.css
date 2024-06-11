@@ -1,0 +1,88 @@
+body{
+    background-color: #1C1A1A;
+}
+header{
+    background-color: #1C1A1A;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.navbar{
+    color: white;
+    justify-content: space-between;
+    display: flex;
+}
+.menu ul{
+    list-style: none;
+    display: flex;
+}
+.menu ul li{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.logo{
+    padding-left: 25px;
+}
+.logoimage img {
+    width: auto; 
+    height: 50px; 
+    border-radius: 50%; 
+}
+.contact-button{
+    margin-right: 10px;
+}
+.container{
+    max-width: 1224px;
+    width: 90%;
+    margin: auto;
+    padding: 40px;
+}
+.title{
+    margin-bottom: 2rem;
+
+}
+.menubox{
+    display: flex;
+    gap: 20px;
+
+}
+.column{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.photo img{
+    width: 300px;
+    height: 100%;
+    border-radius: 5px;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+.photo:hover img {
+    transform: scale(1.1); 
+}
+.photo{
+    position: relative;
+}
+
+.photo:hover .text {
+    opacity: 1; 
+}
+.title{
+    color: white;
+}
+.text{
+    color: white;
+    font-size: x-large;
+    overflow: visible;
+}
+.home{
+    text-decoration: none;
+    color: white;
+}
+
+.menu ul li {
+    transition: transform 0.3s ease; 
+}
+
+.menu ul li:hover {
+    transform: scale(1.1); 
+}
